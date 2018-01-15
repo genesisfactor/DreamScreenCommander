@@ -2,7 +2,7 @@
 ## DreamScreen Commander
 ## By Taurean Dyer 
 ## www.taureandyer.com
-## v 1.01
+## v 1.02
 ## Based on example code from Dreamscreen SDK Docs and inspired by avwuff's DreamScreenControl.cs 
 ## (use avwff's if you just want a C# app: https://github.com/avwuff/DreamScreenControl)
 
@@ -157,7 +157,7 @@ if options.ip:
             for i in range(len(payload)): ## check if all ip is valid numerically (you can add in more octets)
                 int(payload[i])
             #do we need to ping the IP as well?  Probably not...maybe we can ask a set of questions for setup?
-            setIP(ip)
+            endpoint(ip, PORT)
         else:
             print "This has an error in your IP's length"
     except:
