@@ -18,13 +18,13 @@ Optional changes: change the group number (default is 0)
 
 **How to use the script:**
 
-python <path to this file> <option> <value>
+python \<path-to-this-file> \<option> \<value>
     
-- Changing Modes:                   -m <number> 
-- Changing Brightness:              -b <number>
-- Changing Sources:                 -s <number> ---I may change this to i for inputs...
-- Temporarily setting IP address:   -s <ip address>
-- Changing Scenes:                  -a <number> 
+- Changing Modes:                   **-m \<number>**
+- Changing Brightness:              **-b \<number>**
+- Changing Sources:                 **-s \<number>**
+- Temporarily setting IP address:   **-i \<ip address>**
+- Changing Scenes:                  **-a \<number>**
     
 **Example: "python dreamscreen.py -m 0"** will turn off the dreamscreen
 
