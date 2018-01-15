@@ -17,16 +17,23 @@ Only ONE thing that you HAVE to do: Please enter you IP address between the "" i
 Optional changes: change the group number (default is 0)
 
 **How to use the script:**
-
 python <path to this file> <option> <value>
-Example: "python dreamscreen.py -m 0" will turn off the dreamscreen
+    
+- Changing Modes:                   -m <number> 
+- Changing Brightness:              -b <number>
+- Changing Sources:                 -s <number> ---I may change this to i for inputs...
+- Temporarily setting IP address:   -s <ip address>
+- Changing Scenes:                  -a <number> 
+    
+**Example: "python dreamscreen.py -m 0"** will turn off the dreamscreen
 
 Options **should** be able to be daisy chained.  E.G, if you have more than one DreamScreen, you can temporarily specify which one to talk to.  This is a feature of the way it was written, and there aren't too many other options to be daisy chained...soooo...take it with a grain of salt?
-Example: "python dreamscreen.py -i 192.168.1.2 -m 0" **should** turn off that particular dreamscreen (untested as I only have one Dream screen)
+
+**Example: "python dreamscreen.py -i 192.168.1.2 -m 0"** **should** turn off that particular dreamscreen (untested as I only have one Dream screen)
 
 **Ideas for usage**
 
-- Automaticaly adjust Dreamscreen brightness based on room ambient brightness
+- Automatically adjust Dreamscreen brightness based on room ambient brightness
 - Control your Dreamscreen inputs with a Harmony remote control - no phone needed!
 - Use Dreamscreen as a light with with your smart home instance and a raspberry pi (full features coming soon)
 - Do Voice UI (Alexa-styled) control of the Dreamscreen (Windows Speech Marcos, Jasper)
