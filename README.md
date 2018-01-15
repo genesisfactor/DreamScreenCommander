@@ -13,8 +13,9 @@ This was one of my weekend projects (1/13/18 - 1/14/18).  I hope this helps some
 
 **For you to do:**
 
-Only ONE thing that you HAVE to do: Please enter you IP address between the "" in the IP constant (it will be in the first line after the comment block).  Example: IP = "192.168.1.2"
-Optional changes: change the group number (default is 0)
+Only ONE thing that you HAVE to do: Please enter you IP address between the "" in the IP constant (it will be in the first line after the comment block).  **Example: IP = "192.168.1.2"**.  I did my best to make that **SUPER APPARENT** where to put it :).
+
+Optional changes: change the group number (default is 0 or "No group assigned")
 
 **How to use the script:**
 
