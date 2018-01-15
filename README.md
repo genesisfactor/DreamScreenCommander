@@ -17,6 +17,7 @@ Only ONE thing that you HAVE to do: Please enter you IP address between the "" i
 Optional changes: change the group number (default is 0)
 
 **How to use the script:**
+
 python <path to this file> <option> <value>
     
 - Changing Modes:                   -m <number> 
