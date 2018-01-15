@@ -18,8 +18,9 @@ Optional changes: change the group number (default is 0)
 
 **How to use the script:**
 
-python \<path-to-this-file> \<option> \<value>
-    
+**python \<path-to-this-file> \<option> \<value>**
+For Windows users, it will be **\<path-to-python.exe> \<path-to-this-file> \<option> \<value>**
+
 - Changing Modes:                   **-m \<number>**
 - Changing Brightness:              **-b \<number>**
 - Changing Sources:                 **-s \<number>**
