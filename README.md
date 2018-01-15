@@ -33,15 +33,14 @@ Example: "python dreamscreen.py -i 192.168.1.2 -m 0" **should** turn off that pa
 - Automate with your android phone SL4A and Tasker(the script should work there too as it only imports sys, socket, optparse, and time)
 
 **What works**
-
-Changing Modes
-Changing Brightness
-Changing Inputs
-Changing Scenes (still debugging)
+- Changing Modes
+- Changing Brightness
+- Changing Inputs
+- Changing Scenes (still debugging)
 
 **Untested by SHOULD work**
-Temporarily setting IP address
-Daisy chaining commands
+- Temporarily setting IP address
+- Daisy chaining commands
 
 
 ****Limitations:****
