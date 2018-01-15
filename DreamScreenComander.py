@@ -1,9 +1,10 @@
 #############################################################################
-##DreamScreen Commander
-##By Taurean Dyer
-##v 1.01
-##Based on example code from Dreamscreen SDK Docs and inspired by avwuff's DreamScreenControl.cs 
-##(use avwff's if you just want a C# app: https://github.com/avwuff/DreamScreenControl)
+## DreamScreen Commander
+## By Taurean Dyer 
+## www.taureandyer.com
+## v 1.01
+## Based on example code from Dreamscreen SDK Docs and inspired by avwuff's DreamScreenControl.cs 
+## (use avwff's if you just want a C# app: https://github.com/avwuff/DreamScreenControl)
 
 import socket
 import sys
