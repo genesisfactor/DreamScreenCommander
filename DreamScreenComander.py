@@ -41,8 +41,7 @@ def setIP(ip): #temporary as every time you run the code, it will default back t
     endpoint = (ip, PORT)
 
 def color(color): ##!!!!!Not working yet!!!!!!
-    payload=[1]
-    buildAndSendPacket(3,8, 1) #set to ambient scene mode
+    setAmbience(0) #set to ambient scene mode
     ## decide whether to look up or split
     ##split
     payload = color.split(',')
