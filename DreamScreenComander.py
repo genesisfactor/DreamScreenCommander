@@ -158,9 +158,9 @@ if options.ip:
             #do we need to ping the IP as well?  Probably not...maybe we can ask a set of questions for setup?
             setIP(ip)
         else:
-            print "This has an error in your IP's length"
+            print("This has an error in your IP's length")
     except:
-        print "This has an error in your IP"
+        print("This has an error in your IP")
 if options.mode:
     try:
         options.mode = int(options.mode) #options come in as strings, must cast as int
@@ -171,7 +171,7 @@ if options.mode:
             options.mode = 0
         setMode(options.mode)
     except:
-        print "error: mode not a number"
+        print("error: mode not a number")
         sys.exit(0)
 
 if options.source:
@@ -183,7 +183,7 @@ if options.source:
                 options.source = 0
         setSource(options.source)
     except:
-        print "error: source not a number"
+        print("error: source not a number")
         sys.exit(0)
 
 if options.scene:
@@ -195,7 +195,7 @@ if options.scene:
                 options.scene = 0
         setScene(options.scene)
     except:
-        print "error: source not a number"
+        print("error: source not a number")
         sys.exit(0)
 
 if options.brightness:
@@ -207,9 +207,9 @@ if options.brightness:
                 options.brightness = 0
         setBrightness(options.brightness)
     except:
-        print "error: source not a number"
+        print("error: source not a number")
         sys.exit(0)
         
 if (options.mode is None) and (options.source is None) and (options.scene is None) and (options.ip is None) and (options.brightness is None):
-    print "error: no options were selected"
+    print("error: no options were selected")
     sys.exit(0)
